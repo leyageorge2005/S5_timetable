@@ -1,18 +1,18 @@
 <div align="center">
 
-# 🏫 SJCET CSE-B Timetable 📅✨
+# 🏫 SJCET S5 ER Timetable 📅✨
 
   <a href="https://ini-enthada-class.vercel.app/">
-    <img src="public/og-image.png" width="480" alt="SJCET CSE-B Preview Banner" style="border-radius: 24px; margin-bottom: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
+    <img src="public/og-image.png" width="480" alt="SJCET S5 ER Preview Banner" style="border-radius: 24px; margin-bottom: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
   </a>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-SJCET%20CSE--B-FF6B6B?style=for-the-badge" alt="Made for SJCET CSE-B" />
+    <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-SJCET%20S5%20ER-FF6B6B?style=for-the-badge" alt="Made for SJCET S5 ER" />
     <img src="https://img.shields.io/badge/Vibe-🦦%20Cruising-4ECDC4?style=for-the-badge" alt="Vibe Cruising" />
     <img src="https://img.shields.io/badge/Status-Bell%20Active%20%F0%9F%94%94-FFE66D?style=for-the-badge&labelColor=333333" alt="Bell Active" />
   </p>
 
-  <h4>A super-cute, calm, and mobile-first timetable app designed for SJCET CSE-B classmates! Know exactly what class is happening, what's next, and when the bell will ring! 🧸✨</h4>
+  <h4>A super-cute, calm, and mobile-first timetable app designed for SJCET S5 ER classmates! Know exactly what class is happening, what's next, and when the bell will ring! 🧸✨</h4>
 
   <p align="center">
     <a href="https://ini-enthada-class.vercel.app/"><b>✨ Visit Live App ✨</b></a>
@@ -85,7 +85,7 @@ To run the project locally on your machine:
 ---
 
 <div align="center">
-  <h3>Made with 💖 for SJCET CSE-B</h3>
+  <h3>Made with 💖 for SJCET S5 ER</h3>
   <p><b>Created by:</b> Leya George · Apsara Rajesh · Neha Rajan · Serin Maria Siby</p>
   <p>🧸✨ Keep cruising, superstars! ✨🧸</p>
 </div>

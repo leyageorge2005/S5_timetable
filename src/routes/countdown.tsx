@@ -9,8 +9,8 @@ import { Bell, Coffee, UtensilsCrossed, Sun, Moon, Timer, BookOpen, Utensils } f
 export const Route = createFileRoute("/countdown")({
   head: () => ({
     meta: [
-      { title: "Countdown · SJCET CSE-B" },
-      { name: "description", content: "Live bell countdown for SJCET CSE-B." },
+      { title: "Countdown · SJCET S5 ER" },
+      { name: "description", content: "Live bell countdown for SJCET S5 ER." },
     ],
   }),
   component: CountdownPage,
@@ -106,7 +106,7 @@ function CountdownPage() {
       header={
         <header className="mb-5">
           <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-indigo">
-            SJCET CSE-B ✦
+            SJCET S5 ER ✦
           </p>
           <h1 className="mt-1 font-display text-[28px] font-bold text-ink">
             Bell Timer 🔔

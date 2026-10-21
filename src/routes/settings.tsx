@@ -7,8 +7,8 @@ import { SecretGames } from "@/components/secret-games";
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings · SJCET CSE-B" },
-      { name: "description", content: "App preferences for SJCET CSE-B Timetable." },
+      { title: "Settings · SJCET S5 ER" },
+      { name: "description", content: "App preferences for SJCET S5 ER Timetable." },
     ],
   }),
   component: SettingsPage,
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/settings")({
 const rows = [
   { icon: Bell, label: "Class reminders", hint: "Soon ⏰", tone: "bg-blush" },
   { icon: Palette, label: "Appearance", hint: "System", tone: "bg-mint" },
-  { icon: Heart, label: "Made for SJCET CSE-B", hint: "", tone: "bg-butter" },
+  { icon: Heart, label: "Made for SJCET S5 ER", hint: "", tone: "bg-butter" },
   {
     icon: Code2,
     label: "Made by Codexora Studio",
@@ -103,7 +103,7 @@ function SettingsPage() {
       header={
         <header className="mb-5">
           <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-indigo">
-            SJCET CSE-B ✦
+            SJCET S5 ER ✦
           </p>
           <h1
             onClick={handleHeaderTap}
@@ -206,7 +206,7 @@ function SettingsPage() {
             <h3 className="font-display text-sm font-bold text-ink">
               Made with 💖 by
             </h3>
-            <p className="text-[10px] text-ink-soft">SJCET CSE-B</p>
+            <p className="text-[10px] text-ink-soft">SJCET S5 ER</p>
           </div>
         </div>
 
@@ -230,7 +230,7 @@ function SettingsPage() {
         </div>
 
         <p className="mt-3.5 text-center text-[11px] font-medium text-ink-soft/80">
-          Crafted with love for SJCET CSE-B 🧸🎓
+          Crafted with love for SJCET S5 ER 🧸🎓
         </p>
       </div>
     </AppShell>

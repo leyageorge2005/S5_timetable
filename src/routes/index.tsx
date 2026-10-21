@@ -23,14 +23,14 @@ import { SubjectDetailsModal } from "@/components/subject-details-modal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SJCET CSE-B Timetable" },
+      { title: "SJCET S5 ER Timetable" },
       {
         name: "description",
         content:
-          "Live class schedule for SJCET CSE-B — know exactly what's happening right now.",
+          "Live class schedule for SJCET S5 ER — know exactly what's happening right now.",
       },
-      { property: "og:title", content: "SJCET CSE-B Timetable" },
-      { property: "og:description", content: "Live class schedule for SJCET CSE-B." },
+      { property: "og:title", content: "SJCET S5 ER Timetable" },
+      { property: "og:description", content: "Live class schedule for SJCET S5 ER." },
     ],
   }),
   component: Home,
@@ -76,7 +76,7 @@ function Home() {
         <header className="mb-5 grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3">
           <div className="min-w-0">
             <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-indigo">
-              SJCET CSE-B ✦
+              SJCET S5 ER ✦
             </p>
             <h1 className="mt-1 truncate font-display text-[28px] font-bold leading-tight text-ink">
               {headerDay}

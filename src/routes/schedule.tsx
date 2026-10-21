@@ -9,8 +9,8 @@ import { SubjectDetailsModal } from "@/components/subject-details-modal";
 export const Route = createFileRoute("/schedule")({
   head: () => ({
     meta: [
-      { title: "Schedule · SJCET CSE-B" },
-      { name: "description", content: "Full weekly timetable for SJCET CSE-B." },
+      { title: "Schedule · SJCET S5 ER" },
+      { name: "description", content: "Full weekly timetable for SJCET S5 ER." },
     ],
   }),
   component: SchedulePage,
@@ -37,7 +37,7 @@ function SchedulePage() {
       header={
         <header className="mb-5">
           <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-indigo">
-            SJCET CSE-B ✦
+            SJCET S5 ER ✦
           </p>
           <h1 className="mt-1 font-display text-[28px] font-bold text-ink">
             The week 🗓️

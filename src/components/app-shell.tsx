@@ -87,7 +87,7 @@ export function AppHeader({ day }: { day: string }) {
     <header className="mb-6 flex items-center justify-between">
       <div>
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-soft">
-          SJCET CSE-B
+          SJCET S5 ER
         </p>
         <h1 className="mt-1 font-display text-3xl font-semibold text-ink">{day}</h1>
       </div>

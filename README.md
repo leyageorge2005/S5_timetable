@@ -86,5 +86,6 @@ To run the project locally on your machine:
 
 <div align="center">
   <h3>Made with 💖 for SJCET CSE-B</h3>
+  <p><b>Created by:</b> Leya George · Apsara Rajesh · Neha Rajan · Serin Maria Siby</p>
   <p>🧸✨ Keep cruising, superstars! ✨🧸</p>
 </div>

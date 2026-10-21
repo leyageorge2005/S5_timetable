@@ -195,6 +195,44 @@ function SettingsPage() {
           );
         })}
       </div>
+
+      {/* Team Credits */}
+      <div className="mt-6 rounded-[28px] border border-border/60 bg-surface p-5 shadow-xs">
+        <div className="flex items-center gap-2.5 mb-3.5">
+          <div className="grid h-8 w-8 place-items-center rounded-xl bg-blush text-ink">
+            <Heart className="h-4 w-4 text-indigo-deep fill-indigo-deep" />
+          </div>
+          <div>
+            <h3 className="font-display text-sm font-bold text-ink">
+              Made with 💖 by
+            </h3>
+            <p className="text-[10px] text-ink-soft">SJCET CSE-B</p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {[
+            { name: "Leya George", emoji: "🌸" },
+            { name: "Apsara Rajesh", emoji: "✨" },
+            { name: "Neha Rajan", emoji: "💫" },
+            { name: "Serin Maria Siby", emoji: "🎀" },
+          ].map((member) => (
+            <div
+              key={member.name}
+              className="flex items-center gap-2 rounded-2xl bg-lilac-soft/50 dark:bg-border/25 px-3 py-2.5 border border-border/40 transition hover:border-indigo/30"
+            >
+              <span className="text-sm">{member.emoji}</span>
+              <p className="text-xs font-bold text-ink truncate leading-tight">
+                {member.name}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <p className="mt-3.5 text-center text-[11px] font-medium text-ink-soft/80">
+          Crafted with love for SJCET CSE-B 🧸🎓
+        </p>
+      </div>
     </AppShell>
   );
 }

@@ -139,7 +139,7 @@ function GameMenu({ onSelectGame }: { onSelectGame: (mode: GameMode) => void }) 
       </div>
       
       <p className="text-center text-[10px] font-bold uppercase text-ink-soft/40 mt-8 tracking-wider flex items-center justify-center gap-1">
-        Made with <Heart className="h-3 w-3 text-blush fill-blush animate-pulse" /> for SJCET CSE-B
+        Made with <Heart className="h-3 w-3 text-blush fill-blush animate-pulse" /> by Leya, Apsara, Neha & Serin for SJCET CSE-B
       </p>
     </div>
   );
